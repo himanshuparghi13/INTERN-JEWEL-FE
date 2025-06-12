@@ -5,6 +5,8 @@ import { PromoProductLayout as PromoProductLayoutType } from "@/payload-types"
 
 export const PromoProductLayout = (props: PromoProductLayoutType) => {
   const { heading, products, promotion } = props
+  console.log(heading,products,promotion,"heading")
+  
   return (
     <Suspense fallback={<SkeletonProductGrid />}>
       <ProductPromo
