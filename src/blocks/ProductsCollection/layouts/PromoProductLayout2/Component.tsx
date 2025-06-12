@@ -1,6 +1,6 @@
 import React, { Suspense } from "react"
 import SkeletonProductGrid from "@modules/skeletons/components/skeleton-product-grid"
-import { PromoProduct2, PromoProductLayout } from "@/payload-types"
+import { PromoProduct2 } from "@/payload-types"
 import { ProductPromo2 } from "../../components/ProductPromo2"
 
 
